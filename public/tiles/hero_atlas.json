@@ -1,684 +1,684 @@
 {
 	"textures": [
 		{
-			"image": "hero_atlas.json.png",
+			"image": "hero_atlas.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 896,
-				"h": 32
+				"w": 588,
+				"h": 24
 			},
 			"scale": 1,
 			"frames": [
 				{
 					"filename": "attacking-down-0.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 7,
+						"y": 6,
+						"w": 16,
+						"h": 21
 					},
 					"frame": {
 						"x": 0,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 16,
+						"h": 21
 					}
 				},
 				{
 					"filename": "attacking-down-1.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 8,
+						"y": 7,
+						"w": 16,
+						"h": 22
 					},
 					"frame": {
-						"x": 32,
+						"x": 21,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 16,
+						"h": 22
 					}
 				},
 				{
 					"filename": "attacking-down-2.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 8,
+						"y": 7,
+						"w": 16,
+						"h": 24
 					},
 					"frame": {
-						"x": 64,
+						"x": 42,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 16,
+						"h": 24
 					}
 				},
 				{
 					"filename": "attacking-down-3.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 8,
+						"y": 7,
+						"w": 16,
+						"h": 24
 					},
 					"frame": {
-						"x": 96,
+						"x": 63,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 16,
+						"h": 24
 					}
 				},
 				{
 					"filename": "attacking-left-0.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 9,
+						"y": 6,
+						"w": 13,
+						"h": 22
 					},
 					"frame": {
-						"x": 128,
+						"x": 84,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 13,
+						"h": 22
 					}
 				},
 				{
 					"filename": "attacking-left-1.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 1,
+						"y": 6,
+						"w": 21,
+						"h": 22
 					},
 					"frame": {
-						"x": 160,
+						"x": 105,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 21,
+						"h": 22
 					}
 				},
 				{
 					"filename": "attacking-left-2.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 4,
+						"y": 6,
+						"w": 18,
+						"h": 22
 					},
 					"frame": {
-						"x": 192,
+						"x": 126,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 18,
+						"h": 22
 					}
 				},
 				{
 					"filename": "attacking-left-3.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 5,
+						"y": 6,
+						"w": 18,
+						"h": 22
 					},
 					"frame": {
-						"x": 224,
+						"x": 147,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 18,
+						"h": 22
 					}
 				},
 				{
 					"filename": "attacking-right-0.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 9,
+						"y": 7,
+						"w": 16,
+						"h": 21
 					},
 					"frame": {
-						"x": 256,
+						"x": 168,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 16,
+						"h": 21
 					}
 				},
 				{
 					"filename": "attacking-right-1.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 9,
+						"y": 7,
+						"w": 20,
+						"h": 21
 					},
 					"frame": {
-						"x": 288,
+						"x": 189,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 20,
+						"h": 21
 					}
 				},
 				{
 					"filename": "attacking-right-2.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 9,
+						"y": 6,
+						"w": 15,
+						"h": 22
 					},
 					"frame": {
-						"x": 320,
+						"x": 210,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 15,
+						"h": 22
 					}
 				},
 				{
 					"filename": "attacking-right-3.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 9,
+						"y": 6,
+						"w": 15,
+						"h": 22
 					},
 					"frame": {
-						"x": 352,
+						"x": 231,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 15,
+						"h": 22
 					}
 				},
 				{
 					"filename": "attacking-up-0.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 8,
+						"y": 6,
+						"w": 17,
+						"h": 21
 					},
 					"frame": {
-						"x": 384,
+						"x": 252,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 17,
+						"h": 21
 					}
 				},
 				{
 					"filename": "attacking-up-1.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 8,
+						"y": 7,
+						"w": 17,
+						"h": 20
 					},
 					"frame": {
-						"x": 416,
+						"x": 273,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 17,
+						"h": 20
 					}
 				},
 				{
 					"filename": "attacking-up-2.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 8,
+						"y": 6,
+						"w": 15,
+						"h": 22
 					},
 					"frame": {
-						"x": 448,
+						"x": 294,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 15,
+						"h": 22
 					}
 				},
 				{
 					"filename": "attacking-up-3.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
-						"w": 32,
+						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 32,
-						"h": 32
+						"x": 8,
+						"y": 6,
+						"w": 15,
+						"h": 22
 					},
 					"frame": {
-						"x": 480,
+						"x": 315,
 						"y": 0,
-						"w": 32,
-						"h": 32
+						"w": 15,
+						"h": 22
 					}
 				},
 				{
 					"filename": "walking-down-0.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 1,
+						"y": 6,
+						"w": 15,
+						"h": 22
 					},
 					"frame": {
-						"x": 512,
+						"x": 336,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 15,
+						"h": 22
 					}
 				},
 				{
 					"filename": "walking-down-2.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 1,
+						"y": 6,
+						"w": 15,
+						"h": 22
 					},
 					"frame": {
-						"x": 512,
+						"x": 336,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 15,
+						"h": 22
 					}
 				},
 				{
 					"filename": "walking-down-1.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 1,
+						"y": 7,
+						"w": 15,
+						"h": 21
 					},
 					"frame": {
-						"x": 544,
+						"x": 357,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 15,
+						"h": 21
 					}
 				},
 				{
 					"filename": "walking-down-3.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 1,
+						"y": 7,
+						"w": 15,
+						"h": 21
 					},
 					"frame": {
-						"x": 576,
+						"x": 378,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 15,
+						"h": 21
 					}
 				},
 				{
 					"filename": "walking-left-0.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 1,
+						"y": 6,
+						"w": 13,
+						"h": 22
 					},
 					"frame": {
-						"x": 608,
+						"x": 399,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 13,
+						"h": 22
 					}
 				},
 				{
 					"filename": "walking-left-2.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 1,
+						"y": 6,
+						"w": 13,
+						"h": 22
 					},
 					"frame": {
-						"x": 608,
+						"x": 399,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 13,
+						"h": 22
 					}
 				},
 				{
 					"filename": "walking-left-1.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 1,
+						"y": 7,
+						"w": 13,
+						"h": 21
 					},
 					"frame": {
-						"x": 640,
+						"x": 420,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 13,
+						"h": 21
 					}
 				},
 				{
 					"filename": "walking-left-3.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 1,
+						"y": 7,
+						"w": 13,
+						"h": 21
 					},
 					"frame": {
-						"x": 672,
+						"x": 441,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 13,
+						"h": 21
 					}
 				},
 				{
 					"filename": "walking-right-0.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 2,
+						"y": 6,
+						"w": 13,
+						"h": 22
 					},
 					"frame": {
-						"x": 704,
+						"x": 462,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 13,
+						"h": 22
 					}
 				},
 				{
 					"filename": "walking-right-2.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 2,
+						"y": 6,
+						"w": 13,
+						"h": 22
 					},
 					"frame": {
-						"x": 704,
+						"x": 462,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 13,
+						"h": 22
 					}
 				},
 				{
 					"filename": "walking-right-1.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 2,
+						"y": 7,
+						"w": 13,
+						"h": 21
 					},
 					"frame": {
-						"x": 736,
+						"x": 483,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 13,
+						"h": 21
 					}
 				},
 				{
 					"filename": "walking-right-3.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"x": 2,
+						"y": 7,
+						"w": 13,
+						"h": 21
 					},
 					"frame": {
-						"x": 768,
+						"x": 504,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 13,
+						"h": 21
 					}
 				},
 				{
 					"filename": "walking-up-0.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
 						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"y": 5,
+						"w": 15,
+						"h": 23
 					},
 					"frame": {
-						"x": 800,
+						"x": 525,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 15,
+						"h": 23
 					}
 				},
 				{
 					"filename": "walking-up-2.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
 						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"y": 5,
+						"w": 15,
+						"h": 23
 					},
 					"frame": {
-						"x": 800,
+						"x": 525,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 15,
+						"h": 23
 					}
 				},
 				{
 					"filename": "walking-up-1.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
 						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"y": 6,
+						"w": 15,
+						"h": 22
 					},
 					"frame": {
-						"x": 832,
+						"x": 546,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 15,
+						"h": 22
 					}
 				},
 				{
 					"filename": "walking-up-3.png",
 					"rotated": false,
-					"trimmed": false,
+					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
 						"h": 32
 					},
 					"spriteSourceSize": {
 						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
+						"y": 6,
+						"w": 15,
+						"h": 22
 					},
 					"frame": {
-						"x": 864,
+						"x": 567,
 						"y": 0,
-						"w": 16,
-						"h": 32
+						"w": 15,
+						"h": 22
 					}
 				}
 			]
@@ -687,6 +687,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:371cd5b51b43fab537136e3f4c175341:f0dda3470d4e1775de067aa2c69f6f76:9b1259bf59969b27d5d083a673ff0b60$"
+		"smartupdate": "$TexturePacker:SmartUpdate:a5fca4c217ed1e51de4d0ae799d173a0:f0dda3470d4e1775de067aa2c69f6f76:68ee772919367a0f002a82ee7b4f9e3e$"
 	}
 }

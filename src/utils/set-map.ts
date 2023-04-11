@@ -19,7 +19,7 @@ export const setMap =
   for (let i = 0; i < map.layers.length; i++) {
     const layer = map.createLayer(i, "Overworld", 0, 0);
     scene.physics.add.collider(hero, layer);
-    if (map.layers[i].name === 'fence') {
+    if (map.layers[i].name === 'bush') {
       interactiveLayers.add(layer);
     }
   }

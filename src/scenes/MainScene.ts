@@ -20,6 +20,8 @@ private spaceBar!: Input.Keyboard.Key;
     this.spaceBar = this.input?.keyboard?.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
 
     this.hero = new Hero(this, 0, 0, Sprites.HERO, `walking-down-0.png`);
+    this.hero.width=32;
+    this.hero.height=32;
 
     const { map, interactiveLayers } = setMap(this, 'testmap', 'Overworld', 'tileset', this.hero);
 
@@ -34,7 +36,7 @@ private spaceBar!: Input.Keyboard.Key;
         {
           id: Sprites.HERO,
           sprite: this.hero,
-          startPosition: { x: 8, y: 8 }
+          startPosition: { x: 8, y: 8 },
         }
       ]
     };
@@ -45,14 +47,13 @@ private spaceBar!: Input.Keyboard.Key;
       const facingDirection = this.gridEngine?.getFacingDirection(Sprites.HERO);
       const t = [objA, objB].find((obj) => obj !== this.hero?.actionCollider);
       const tile = <Phaser.Tilemaps.TilemapLayer>t;
-      if (Input.Keyboard.JustDown(this.spaceBar)) {
+      if (Input.Keyboard.JustDown(this.spaceBar) && tile.layer.name === 'bush') {
         this.hero?.setAttacking(true);
         this.hero?.anims.play(`attacking-${facingDirection}`);
         this.time.delayedCall(
             50,
             () => {
                 tile.setVisible(false);
-                console.log(tile.x, tile.y)
                 map.removeTileAt(tile.x, tile.y)
             }
             
