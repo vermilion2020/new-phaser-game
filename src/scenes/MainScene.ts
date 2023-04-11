@@ -52,8 +52,10 @@ private spaceBar!: Input.Keyboard.Key;
             50,
             () => {
                 tile.setVisible(false);
-                tile.destroy();
-            } 
+                console.log(tile.x, tile.y)
+                map.removeTileAt(tile.x, tile.y)
+            }
+            
         );
       } 
     });
